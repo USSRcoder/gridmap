@@ -6,3 +6,8 @@
 Создаем материал, добавляем в него этот шейдер. Создаем GameObject, к нему добавляем mesh, mesh rendered. Мешь с размером 126x126, устанавливаем созданный материал.
 
 Использует оси x,y; z для глубины.
+
+Сылки:
+https://thebookofshaders.com/07/?lan=ru
+https://thndl.com/square-shaped-shaders.html
+
