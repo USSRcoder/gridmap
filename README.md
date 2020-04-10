@@ -3,7 +3,10 @@
 
 <img src="https://raw.githubusercontent.com/USSRcoder/gridmap/master/gridmap.png">
 
-Создаем материал, добавляем в него <a href="gridshader2.shader">gridshader2.shader</a> шейдер. Создаем GameObject, к нему добавляем mesh, mesh renderer. Мешь с размером 126x126 или любым другим, устанавливаем созданный материал. Пример - <a href="mapgrid1.cs">mapgrid1.cs</a>
+1. Создаем GameObject, к нему добавляем mesh, mesh renderer.<br>
+2. Добавляем в этому GameObject этот скрипт - <a href="mapgrid1.cs">mapgrid1.cs</a><br>
+Мешь создается динамически 126x126, и устанавливает материал.<br><br>
+Если делать вручную, то нужно создать материал и добавить в него <a href="gridshader2.shader">gridshader2.shader</a> шейдер. <br>
 
 Использует оси x,y; z для глубины.
 
